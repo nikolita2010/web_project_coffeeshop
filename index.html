@@ -104,7 +104,60 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Reservar una mesa</h2>
+          <form
+            class="reservation__form form"
+            id="reservation__form"
+            method="get"
+          >
+            <fieldset class="reservation__fieldset">
+              <label for="name" class="form__label">Nombre*</label>
+              <input
+                type="text"
+                id="name"
+                class="reservation__input"
+                placeholder="Nombre"
+                required
+              />
+              <label for="guest-count" class="form__label"
+                >Número de comensales*</label
+              >
+              <input
+                type="number"
+                class="reservation__input"
+                id="guest-count"
+                placeholder="1-8"
+                max="1"
+                min="8"
+                required
+              />
+              <label for="date" class="reservation__label">Fecha y hora*</label>
+              <input
+                type="datetime-local"
+                class="reservation__input"
+                placeholder="dd/mm/aaaa"
+                required
+              />
+              <label for="email" class="reservation__label"
+                >Tu correo electrónico*</label
+              >
+              <input
+                type="email"
+                class="reservation__input"
+                placeholder="email@email.com"
+                required
+              />
+              <button class="reservation__button">Reservar una mesa</button>
+              <div class="checkbox">
+                <input type="checkbox" class="reservation__checkbox" />
+                <label class="label__terminos"
+                  >Acepto los términos de uso</label
+                >
+              </div>
+            </fieldset>
+          </form>
+        </section>
       </main>
       <footer class="footer"></footer>
     </div>

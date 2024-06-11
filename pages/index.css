@@ -173,3 +173,97 @@
   line-height: 30px;
   margin-top: 24px;
 }
+.reservation {
+  background-image: url(../images/background_reservation.svg);
+  background-color: #d9e7ff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.form {
+  margin: auto;
+}
+.reservation__form {
+  width: 100%;
+  max-width: 385px;
+}
+.reservation__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.reservation__fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 80px;
+  margin-bottom: 120px;
+  width: 100%z;
+  border: none;
+}
+.reservation__input {
+  border-radius: 4px;
+  height: 60px;
+  max-width: 385px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  width: 100%;
+}
+.reservation__label {
+  border-radius: 4px;
+  margin-top: 32px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  width: 100%;
+}
+.reservation__button {
+  max-width: 385px;
+  height: 60px;
+  border-radius: 4px;
+  margin-top: 32px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #2f80ed;
+  border: none;
+  color: #ffffff;
+  width: 100%;
+}
+
+.reservation__button:hover {
+  opacity: 0.7;
+}
+.reservation__checkbox {
+  border-radius: 2px;
+  color: #2f80ed;
+  margin-bottom: 120px;
+  margin-top: 32px;
+  gap: 12px;
+  height: 20px;
+  width: 20px;
+}
+.label__terminos {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 12px;
+  margin-top: 32px;
+  margin-bottom: auto;
+}
